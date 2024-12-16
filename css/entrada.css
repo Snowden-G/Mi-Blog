@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+body.welcome-page {
+    background-image: url('https://www.freepik.es/vector-gratis/fondo-tecnologia-digital-alambre-malla-red_10136775.htm#fromView=keyword&page=1&position=0&uuid=c008a765-3800-4afc-84c7-d782ee2d921d'); /* Ruta de la imagen de fondo */
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;  
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-box {
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 25px;
+    background-color: #86fffb;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+    transform: scale(1.1);
+}
